@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Higher or Lower</title>
+    <!-- Include Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body class="bg-dark text-white">
+<nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
+    <div class="container">
+        <!-- Font Awesome icon with the navbar title -->
+        <a class="navbar-brand" href="{{ url_for('index') }}"><img src="../static/images/playing-cards.png" alt="Playing Card" style="width: 30px; margin-right: 10px;">Higher Or Lower?</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ url_for('index') }}">Play!</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ url_for('about') }}">Rules</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ url_for('games_history') }}">Game History</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="container">
+    <h1 class="text-center mt-4">About Higher or Lower</h1>
+    <p class="text-center mt-4">Higher or Lower is a simple card game where players guess whether the next card drawn from a deck will be higher or lower than the previous card. Players can wager in-game currency and try to increase their balance.</p>
+    <p class="text-center mt-2">This game is developed as a part of a web applications programming assignment using HTML, CSS, JavaScript, Python, and MariaDB.</p>
+</div>
+
+<!-- Include Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
