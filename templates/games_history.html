@@ -29,14 +29,14 @@
         </div>
     </div>
 </nav>
-
+<h1>Game History</h1>
 <table class="table table-dark table-striped mt-4">
     <thead>
         <tr>
             <th scope="col">Game ID</th>
-            <th scope="col">Player Wins</th>
-            <th scope="col">Number to Guess</th>
-            <th scope="col">Guesses Made</th>
+            <th scope="col">Rounds Won</th>
+            <th scope="col">Rounds Lost</th>
+            <th scope="col">Outcome</th>
         </tr>
     </thead>
     <tbody>
@@ -44,8 +44,8 @@
         <tr>
             <td>{{ game._id }}</td>
             <td>{{ game.player_wins }}</td>
-            <td>{{ game.number_to_guess }}</td>
-            <td>{{ game.guesses }}</td>
+            <td>{{ game.rounds_lost }}</td>
+            <td>{{ game.outcome }}</td>
         </tr>
         {% endfor %}
     </tbody>
