@@ -40,7 +40,7 @@ def play():
 # this route is where the user plays game: guess.html. We use GET and POST methods to grab data from html
 # and inject it into python code without JS
 # this is also where we handle logic currently.
-# TODO: Separate logic into multiple functions as demonstrated in BP of app
+# TODO: Separate logic into multiple functions as demonstrated in BP of app to make code more readable
 @app.route('/guess', methods=['GET', 'POST'])
 def guess():
     # this ensures that there is no issue with session data stream
@@ -145,3 +145,4 @@ def about():
 # run the flask app
 if __name__ == '__main__':
     app.run(debug=True)
+
