@@ -1,5 +1,5 @@
 # Higher-or-Lower-game
-This a Web application using HTML, JS, CSS with bootstrap, python with flask, and a MongoDb database. It is a simple higher or lower card game where users can wager in game currency.
+This a Web application using HTML, JS, CSS with bootstrap, python with flask, and a MongoDb database. It is a simple higher or lower card game where users can wager in game currency (not in game yet).
 
 How to Play:
 
